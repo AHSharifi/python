@@ -51,4 +51,4 @@ print("tavan 2 age:", (age ** 2))
 if (age >= 18):
   print("Legal age")
 else:
-  print("Legal age")
+  print("Not legal age")
