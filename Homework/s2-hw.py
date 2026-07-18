@@ -32,9 +32,9 @@ print(
 
 # [=================| Do math on user age |=================]
 # jam
-print("age + 2: ", ( age + 2 ))
+print("age + 2: ", (age + 2))
 # tafrigh
-print("age - 10: ", ( age - 10 ))
+print("age - 10: ", (age - 10))
 # zarb
 print("age × 3: ", (age * 10))
 # taghsim
@@ -45,3 +45,10 @@ print("kharej ghesmat age bar 6: ", (age // 6))
 print("baghimande age bar 6: ", (age % 6))
 # tavan
 print("tavan 2 age: ", (age ** 2))
+
+# [=================| Age conditions |=================]
+
+if (age >= 18):
+  print("Legal age")
+else:
+  print("Legal age")
