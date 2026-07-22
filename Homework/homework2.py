@@ -50,5 +50,7 @@ print("tavan 2 age:", (age ** 2))
 
 if (age >= 18):
   print("Legal age")
-else:
+elif age > 0 and age < 18:
   print("Not legal age")
+else:
+  print("Age is not valid.")
